@@ -21,8 +21,8 @@ export default class Header extends LitElement {
     `;
   }
 
-  _didRender() {
-    console.log('did render')
+  _didRender(props, changedProps, prevProps) {
+    console.log('did render', {props, changedProps, prevProps})
   }
 
   _firstRendered() {
