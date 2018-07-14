@@ -1,0 +1,19 @@
+{
+  "name": "lit-element-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2",
+    "@webcomponents/webcomponentsjs": "^2.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "wired-elements": "^0.6.7"
+  },
+  "scripts": {
+    "start": "polyserve --npm --module-resolution=node"
+  },
+  "devDependencies": {
+    "polyserve": "^0.27.12"
+  }
+}
